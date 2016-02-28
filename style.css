@@ -1,0 +1,17 @@
+body {
+  margin: 20px;
+}
+
+#search {
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 20px;
+  width: 200px;
+  display: inline-block;
+}
