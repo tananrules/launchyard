@@ -53,7 +53,7 @@ var users = [
 
 function addNewField() {
   var styles = [];
-  for(var i=1; i<users.length; i++) {
+  for(var i=1; i<users.length+1; i++) {
     styles.push(document.getElementById('list').children[i].style.display);
   }
   if(styles.indexOf("inline-block") === -1) {
